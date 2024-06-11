@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es"> <!-- Define el idioma del documento -->
+<head>
+    <meta charset="UTF-8"> <!-- Define la codificación de caracteres -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Asegura que la página se muestra bien en dispositivos móviles -->
+    <title>Operaciones en Arrays</title> <!-- Título de la página -->
+    <link rel="stylesheet" href="styles.css"> <!-- Enlace al archivo CSS -->
+</head>
+<body>
+    <div class="container"> <!-- Contenedor principal -->
+        <h1>Operaciones en Arrays</h1> <!-- Título principal -->
+        <div id="array"></div> <!-- Contenedor para mostrar el array -->
+        <div class="controls"> <!-- Controles para las operaciones del array -->
+            <input type="number" id="index" placeholder="Índice"> <!-- Campo de entrada para el índice -->
+            <input type="text" id="value" placeholder="Valor"> <!-- Campo de entrada para el valor -->
+            <button onclick="acceder()">Acceder</button> <!-- Botón para acceder a un valor del array -->
+            <button onclick="buscar()">Buscar</button> <!-- Botón para buscar un valor en el array -->
+            <button onclick="insertar()">Insertar</button> <!-- Botón para insertar un valor en el array -->
+            <button onclick="eliminar()">Eliminar</button> <!-- Botón para eliminar un valor del array -->
+        </div>
+        <div id="mensaje"></div> <!-- Contenedor para mostrar mensajes -->
+    </div>
+    <script src="script.js"></script> <!-- Enlace al archivo JavaScript -->
+</body>
+</html>

@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif; /* Fuente del documento */
+    display: flex; /* Utiliza Flexbox para centrar el contenido */
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    height: 100vh; /* Altura completa de la ventana */
+    margin: 0; /* Sin margen */
+    background-color: #f0f0f0; /* Color de fondo */
+}
+
+.container {
+    text-align: center; /* Centra el texto dentro del contenedor */
+}
+
+#array {
+    margin: 20px 0; /* Margen superior e inferior de 20px */
+}
+
+.array-element {
+    display: inline-block; /* Muestra los elementos en línea */
+    width: 40px; /* Ancho de cada elemento */
+    height: 40px; /* Altura de cada elemento */
+    line-height: 40px; /* Altura de la línea para centrar el texto verticalmente */
+    border: 1px solid #000; /* Borde negro */
+    margin: 5px; /* Margen alrededor de cada elemento */
+}
+
+.controls input, .controls button {
+    margin: 5px; /* Margen alrededor de los elementos de control */
+    padding: 5px; /* Relleno dentro de los elementos de control */
+}
+
+#mensaje {
+    margin-top: 20px; /* Margen superior de 20px */
+    font-size: 1.2em; /* Tamaño de fuente mayor para los mensajes */
+    color: #d9534f; /* Color rojo para los mensajes */
+}
